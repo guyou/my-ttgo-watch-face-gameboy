@@ -4,37 +4,6 @@
     "x_offset": 0,
     "y_offset": 0
   },
-  "hour": {
-    "enable": false,
-    "x_offset": 0,
-    "y_offset": 0
-  },
-  "min": {
-    "enable": false,
-    "smooth": true,
-    "x_offset": 0,
-    "y_offset": 0
-  },
-  "sec": {
-    "enable": false,
-    "x_offset": 0,
-    "y_offset": 0
-  },
-  "hour_shadow": {
-    "enable": false,
-    "x_offset": 5,
-    "y_offset": 5
-  },
-  "min_shadow": {
-    "enable": false,
-    "x_offset": 5,
-    "y_offset": 5
-  },
-  "sec_shadow": {
-    "enable": false,
-    "x_offset": 5,
-    "y_offset": 5
-  },
   "label": [
     {
       "enable": true,
@@ -43,7 +12,7 @@
       "font_color": "#6c680d",
       "align": "center",
       "font_size": 48,
-      "x_offset": 100,
+      "x_offset": 80,
       "y_offset": 70,
       "x_size": 150,
       "y_size": 50
@@ -54,10 +23,10 @@
       "label": "%Y-%m-%d",
       "font_color": "#6c680d",
       "align": "center",
-      "font_size": 32,
-      "x_offset": 120,
-      "y_offset": 20,
-      "x_size": 125,
+      "font_size": 16,
+      "x_offset": 80,
+      "y_offset": 40,
+      "x_size": 140,
       "y_size": 34
     },
     {
@@ -76,14 +45,13 @@
       "enable": true,
       "type": "steps",
       "label": "%d steps",
-      "font_color": "#FFFFFF",
-      "align": "center",
+      "font_color": "#6c680d",
+      "align": "left",
       "font_size": 16,
-      "x_offset": 65,
-      "y_offset": 16,
-      "x_size": 125,
+      "x_offset": 90,
+      "y_offset": 18,
+      "x_size": 100,
       "y_size": 20
     }
   ]
 }
-
